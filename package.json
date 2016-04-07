@@ -1,0 +1,16 @@
+{
+  "name": "scp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "rx-lite": "^4.0.8",
+    "ssh2": "^0.5.0"
+  }
+}
