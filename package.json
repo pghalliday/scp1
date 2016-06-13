@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Halliday <pghalliday@gmail.com> (http://pghalliday.com/)",
+  "repository": "pghalliday/scp1",
+  "homepage": "https://github.com/pghalliday/scp1",
+  "bugs": "https://github.com/pghalliday/scp1/issues",
   "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",

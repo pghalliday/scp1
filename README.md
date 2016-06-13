@@ -22,7 +22,7 @@ const client = new SCP1({
 })
 
 // First create a promise to put a file on the remote system
-client.put(localFile, remoteFile)
+client.put(localFile, remoteFile, mode)
 // then create a promise to get get the file from the remote system
 .then(client.get.bind(client, remoteFile, localFile))
 // catch any errors

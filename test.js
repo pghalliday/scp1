@@ -7,8 +7,8 @@ const REMOTE_FILE = '/scp_test';
 const NEXT_LOCAL_FILE = 'test2';
 
 const SSH_PARAMS = {
-  host: 'localhost',
-  port: 2222,
+  host: 'c1-stb',
+  port: 22,
   username: 'root',
   algorithms: {
     serverHostKey: [
