@@ -1,12 +1,12 @@
 {
-  "name": "scp-test",
+  "name": "scp1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A pure NodeJS, real SCP implementation (not SFTP!)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Peter Halliday <pghalliday@gmail.com> (http://pghalliday.com/)",
   "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",

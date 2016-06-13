@@ -10,11 +10,11 @@ npm install scp1
 ```
 
 ```javascript
-const SCP = require('scp1')
+const SCP1 = require('scp1')
 
 // options are those for the SSH connection as required
 // by the `ssh2` library
-const client = new SCP({
+const client = new SCP1({
   host: 'myhost',
   port: 22,
   username: 'myuser',
