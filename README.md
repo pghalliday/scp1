@@ -9,7 +9,7 @@ Depends on the pure node SSH implementation from [ssh2](https://www.npmjs.com/pa
 npm install scp1
 ```
 
-```
+```javascript
 const SCP = require('scp1')
 
 // options are those for the SSH connection as required
