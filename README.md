@@ -1,4 +1,4 @@
-# node-scp
+# scp1
 
 A pure NodeJS, real SCP implementation (not SFTP!).
 Depends on the pure node SSH implementation from [ssh2](https://www.npmjs.com/package/ssh2)
