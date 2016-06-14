@@ -5,7 +5,9 @@ Depends on the pure node SSH implementation from [ssh2](https://www.npmjs.com/pa
 
 Note that although effort has been made to handle error conditions, this is still a basic implementation of all the functionality I needed at the time. It is not a full implementation of the SCP protocol and in fact can only be used for sending and receiving single files without support for file times.
 
-(It's also a bit of an experiment in observables and generator functions so excuse the coding style and lack of tests - sorry!)
+(It's also a bit of an experiment in observables and generator functions so please excuse the coding style and lack of tests - sorry!)
+
+Pull requests are welcome as always :)
 
 # Usage
 
