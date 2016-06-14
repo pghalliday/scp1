@@ -27,8 +27,8 @@ client.on('info', message => {
   console.log(message);
 });
 
-client.put(LOCAL_FILE, REMOTE_FILE, parseInt('0644', 8))
-.then(client.get.bind(client, REMOTE_FILE, LOCAL_FILE))
+client.put(LOCAL_FILE, REMOTE_FILE, parseInt('0640', 8))
+.then(client.get.bind(client, REMOTE_FILE, NEXT_LOCAL_FILE, parseInt('0755', 8)))
 .catch(error => {
   console.error(error);
 });

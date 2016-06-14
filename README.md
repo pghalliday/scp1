@@ -22,9 +22,13 @@ const client = new SCP1({
 })
 
 // First create a promise to put a file on the remote system
+// If mode is not specified then the existing local file mode is used
+// If the file exists on the remote system, it's mode will not be changed
 client.put(localFile, remoteFile, mode)
 // then create a promise to get get the file from the remote system
-.then(client.get.bind(client, remoteFile, localFile))
+// If mode is not specified then the existing remote file mode is used
+// If the file exists on the local system, it's mode will not be changed
+.then(client.get.bind(client, remoteFile, localFile, mode))
 // catch any errors
 .catch(error => {
   console.error(error);
