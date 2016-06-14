@@ -1,7 +1,8 @@
 # scp1
 
-A pure NodeJS, real SCP implementation (not SFTP!).
-Depends on the pure node SSH implementation from [ssh2](https://www.npmjs.com/package/ssh2)
+A pure NodeJS, real SCP implementation (not SFTP!). Depends on the pure node SSH implementation from [ssh2](https://www.npmjs.com/package/ssh2).
+
+Based on [this blog post](https://blogs.oracle.com/janp/entry/how_the_scp_protocol_works) from Jan Pechanec with regard to the otherwise undocumented SCP/RCP protocol.
 
 Note that although effort has been made to handle error conditions, this is still a basic implementation of all the functionality I needed at the time. It is not a full implementation of the SCP protocol and in fact can only be used for sending and receiving single files without support for file times.
 
